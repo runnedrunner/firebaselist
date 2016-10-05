@@ -10,6 +10,7 @@ input.keydown(function(e) {
 
 clearButton.click(function(e) {	
   deleteValue("davidsList");
+  
 })
 
 onNewListItem("davidsList", function(value) {
