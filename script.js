@@ -10,7 +10,7 @@ input.keydown(function(e) {
 
 clearButton.click(function(e) {	
   deleteValue("davidsList");
-  
+  $("#list-display").
 })
 
 onNewListItem("davidsList", function(value) {
