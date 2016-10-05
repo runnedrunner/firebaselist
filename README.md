@@ -1,0 +1,2 @@
+# firebaselist
+Classadoo generated repo
