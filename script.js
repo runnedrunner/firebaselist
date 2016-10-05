@@ -10,9 +10,9 @@ input.keydown(function(e) {
 
 clearButton.click(function(e) {	
   deleteValue("davidsList");
-  $("#list-display").
+  $("#list-display").remove();
 })
 
 onNewListItem("davidsList", function(value) {
-  $("#list-display").append("<div>" + value + "</div>")
+  $("#list-display").append("<div class='friends'>" + value + "</div>")
 }) 
